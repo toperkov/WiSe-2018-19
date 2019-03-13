@@ -92,4 +92,4 @@ void loop() {
 
 3. Nakon toga, klikom na `Upload` učitajte firmware na Arduino Uno.
 
-3. Klikom ``PlatformIO > Serial Monitor`` će vam se početi ispisivati vrijednost na Serijski port od Arduino Uno-a. Vaš zadatak je da testirate rad fotodiode u uvjetima različitog osvjetljenja te vidite kako se to reflektira na rad senzora.
+3. Klikom ``PlatformIO > Serial Monitor`` će vam se početi ispisivati vrijednost na Serijski port od Arduino Uno-a. Odaberite ``Port`` na koji je spojen Arduino Uno te ``Baud rate`` postavite na ``115200``  Vaš zadatak je da testirate rad fotodiode u uvjetima različitog osvjetljenja te vidite kako se to reflektira na rad senzora.

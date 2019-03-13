@@ -58,6 +58,8 @@ U sklopu ove vježbe ćete realizirati očitavanje svjetla iz prostorije korišt
 
 1. Za realizaciju ove vježbe ćete spojiti fotodiodu kao što je prikazano na slici ispod. Primjetite da je jedan pin fotodiode povezan na Analogni ulaz `A0`, dok je drugi pin spojen na `GND`.
 
+![photodiode](https://user-images.githubusercontent.com/8695815/54277548-73af8280-4590-11e9-9749-f9f810062f31.jpg)
+
 
 2. Slično kao u prethodnom primjeru kreirajte novi projekt te kreirajte novu datoteku pod nazivom npr. `AnalogRead.ino`. Za realizaciju vježbe ćemo koristiti već postojeći kod [AnalogReadSerial](https://www.arduino.cc/en/Tutorial/AnalogReadSerial). Jedino preinaku koju smo napravili je brzina čitanja/slanja podataka na serijski port te `delay` između dva čitanja (10 ms).
 

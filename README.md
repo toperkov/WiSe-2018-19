@@ -10,7 +10,7 @@ Laboratorijske vježbe su praktičnog tipa (hands-on). Student će realizirati s
 
 ## Upute
 
-- [Lab 0](/instructions/lab-0.md)
+- [Lab 0]
 - Lab 1
 - Lab 2
 - Lab 3

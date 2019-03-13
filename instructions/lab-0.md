@@ -12,7 +12,7 @@ PlatformIO IDE se temelji na PlatformIO Core koji je napisan u Python programsko
 - Nakon uspješne instalacije otvorite Command Prompt te upišite naredbu `python` čime testirate uspješnost instalacije:
 
 ```
-C:\Users\TONI FESB>python
+C:\Users\A507>python
 ```
 
 ## [Clang](http://clang.llvm.org/)
@@ -36,7 +36,7 @@ Da biste to realizirali kliknite na: ``Menu: File > Settings > Install``
 Git klijent omogućuje jednostavno preuzimanje koda sa GitHub repozitorija. Testirajte instalaciju tako da pokušate klonirati repozitorij `https://github.com/toperkov/WiSe-2018-19.git`. U Git Bash komandnom prozoru izvršite sljedeće:
 
 ```bash
-# U osobnom direktoriju (npr. `C:/Users/Toni`) izvršite
+# U osobnom direktoriju (npr. `C:/Users/A507/Toni`) izvršite
 $ git clone https://github.com/toperkov/WiSe-2018-19.git labs-intro  
 $ cd labs-intro
 $ ls

@@ -13,12 +13,12 @@ Kao što je navedeno, vježbe se temelje na [Arduino](https://www.arduino.cc) mi
 ## Upute
 
 - [Lab 0](https://github.com/toperkov/WiSe-2016-17/blob/master/upute/instalacija-razvojnog-okruzenja.md)
-- [Lab 1](https://github.com/toperkov/WiSe-2016-17-lab1)
-- [Lab 2](https://github.com/toperkov/WiSe-2016-17-lab2)
-- [Lab 3](https://github.com/toperkov/WiSe-2016-17-lab3)
-- [Lab 4](https://github.com/toperkov/WiSe-2016-17-lab4)
-- [Lab 5](https://github.com/toperkov/WiSe-2016-17-lab5)
-- [Lab 6](https://github.com/toperkov/WiSe-2016-17-lab6)
-- [Lab 7](https://github.com/toperkov/WiSe-2016-17-lab7)
-- [Lab 8](https://github.com/toperkov/WiSe-2016-17-lab8)
-- [Lab 9](https://github.com/toperkov/WiSe-2016-17-lab9)
+- [Lab 1]
+- [Lab 2]
+- [Lab 3]
+- [Lab 4]
+- [Lab 5]
+- [Lab 6]
+- [Lab 7]
+- [Lab 8]
+- [Lab 9]

@@ -33,11 +33,11 @@ Da biste to realizirali kliknite na: ``Menu: File > Settings > Install``
 
 ## [Git klijent za Windows](https://git-for-windows.github.io/)
 
-Git klijent omogućuje jednostavno preuzimanje koda sa GitHub repozitorija. Testirajte instalaciju tako da pokušate klonirati repozitorij `https://github.com/toperkov/WiSe-2016-17.git`. U Git Bash komandnom prozoru izvršite sljedeće:
+Git klijent omogućuje jednostavno preuzimanje koda sa GitHub repozitorija. Testirajte instalaciju tako da pokušate klonirati repozitorij `https://github.com/toperkov/WiSe-2018-19.git`. U Git Bash komandnom prozoru izvršite sljedeće:
 
 ```bash
 # U osobnom direktoriju (npr. `C:/Users/Toni`) izvršite
-$ git clone https://github.com/toperkov/WiSe-2016-17.git labs-intro  
+$ git clone https://github.com/toperkov/WiSe-2018-19.git labs-intro  
 $ cd labs-intro
 $ ls
 ```

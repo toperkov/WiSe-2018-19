@@ -95,3 +95,24 @@ void loop() {
 3. Nakon toga, klikom na `Upload` učitajte firmware na Arduino Uno.
 
 3. Klikom ``PlatformIO > Serial Monitor`` će vam se početi ispisivati vrijednost na Serijski port od Arduino Uno-a. Odaberite ``Port`` na koji je spojen Arduino Uno te ``Baud rate`` postavite na ``115200``  Vaš zadatak je da testirate rad fotodiode u uvjetima različitog osvjetljenja te vidite kako se to reflektira na rad senzora.
+
+## Kreiranje trećeg projekta u PlatformIO IDE okruženju - očitavanje temperature i vlažnosti preko DHT22 senzora
+
+Uspješnom realizacijom ove vježbe ćete moći očitavati temperaturu i vlažnost na serijskom portu vašeg Arduino uređaja. Za realizaciju ove vježbe vam je potreban DHT22 senzor kojeg ćete povezati kako je to prikazano na slici ispod.
+
+![DHT22](https://user-images.githubusercontent.com/8695815/54339289-b0cd5080-4634-11e9-898d-3fa84a18f2ff.png)
+
+
+Prije nego što spojite Arduino na računalo, potrebno je instalirati biblioteke koje podržavaju rad senzora. Dakle, nakon što ste kreirali novi projekt kreirali (praznu) datoteku npr. ``TempHumSensor.ino``, potrebno je instalirati biblioteke koje su nam potrebne za rad sa DHT22 senzorom. Da biste to realizirali, pratite korake koji su navedeni na slikama ispod.
+
+Klikom na ``Platformio Home`` će vam se pojaviti prozor kao što je prikazano na slici. Nakon toga kliknite na ikonu ``libraries`` (Korak 1). U prozoru za pretraživanje upišite ``DHT`` (Korak 2) te pritisnite ikonu za pretraživanje. Nakon rezultata pretrage će vam se pojaviti ``DHT Sensor library`` te kliknite na njega (Korak 3).
+
+![DHT_install](https://user-images.githubusercontent.com/8695815/54339311-bf1b6c80-4634-11e9-80ff-ca094bb9287d.png)
+
+
+Nakon toga kliknite na ikonu install (Korak 4) da biste instalirali biblioteku. U nastavku ispod možete naći primjer rada sa DHT22 senzorom (Korak 5). Kopirajte taj kod te ga pohranite u datoteci vašeg prethodno kreiranog projekta (npr. ``TempHumSensor.ino``). 
+
+![DHT_install2](https://user-images.githubusercontent.com/8695815/54339324-cb9fc500-4634-11e9-92af-fd75dace3985.png)
+
+
+Nakon što ste instalirali ``DHT Sensor library``, ponovite isti postupak za instalaciju biblioteke ``Adafruit Unified Sensor``. Ukoliko ste sve korake uspješno odradili, trebali biste moći učitati kod u Arduino. Nakon toga otvorite ``Serial Monitor`` te komentirajte što vidite.

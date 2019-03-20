@@ -236,7 +236,7 @@ void loop() {
 
 # Zadatak
 
-Skinite ``TempHumLight.ino`` datoteku koja se nalazi na GitHub repozitoriju te je stavite u ``scr`` direktorij u kojemu ćete raditi današnju vježbu (npr. ``C:\Users\Student\Desktop\Toni\scr``). Kao što ćete vidjeti, navedena skripta čita temperaturu i vlagu senzora (DHT22 u vašem primjeru) te razinu osvjetljenja (pomoću senzora BH1750). Pije pokretanja/kompajliranja skripte potrebno je instalirati biblioteke za DHT, Adafruit Sensor (već imate ove dvije instalirane iz prethodne vježbe) i BH1750.
+Skinite [``TempHumLight.ino``](https://github.com/toperkov/WiSe-2018-19/tree/master/instructions/labs) datoteku koja se nalazi na GitHub repozitoriju te je stavite u ``scr`` direktorij u kojemu ćete raditi današnju vježbu (npr. ``C:\Users\Student\Desktop\Toni\scr``). Kao što ćete vidjeti, navedena skripta čita temperaturu i vlagu senzora (DHT22 u vašem primjeru) te razinu osvjetljenja (pomoću senzora BH1750). Pije pokretanja/kompajliranja skripte potrebno je instalirati biblioteke za DHT, Adafruit Sensor (već imate ove dvije instalirane iz prethodne vježbe) i BH1750.
 
 <!---! Da biste to realizirali, u PlatformIO-u te upišite sljedeću naredbu:
 ``platformio lib search DHT``

@@ -134,7 +134,7 @@ void setup() {
 }
 ```
 
-3. U Sensors klasi implementirajte funkcije ``readTempHum()`` za ispis vrijednosti temperature i vlažnosti i ``readLight()`` za ispit vrijednosti osvjetljenja te ih pozovete u state mašini na odgovarajućim mjestima u kodu.
+3. U Sensors klasi implementirajte funkcije ``readTempHum()`` za ispis vrijednosti temperature i vlažnosti i ``readLight()`` za ispit vrijednosti osvjetljenja te ih pozovete u state mašini na odgovarajućim mjestima u kodu. Senzore DHT11/22 i BH1750 povežite prema uputama koje su dane u prethodnoj vježbi.
 
 
 ## Korisni linkovi:

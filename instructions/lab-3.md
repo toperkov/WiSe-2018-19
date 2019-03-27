@@ -143,7 +143,7 @@ void setup() {
 [2] http://playground.arduino.cc/Code/Library  
 [3] https://learn.adafruit.com/multi-tasking-the-arduino-part-1/overview  
 [4] http://www.fredosaurus.com/notes-cpp/preprocessor/ifdef.html  
-[5] https://www.arduino.cc/en/Hacking/LibraryTutorial
-[6] https://www.arduino.cc/en/Reference/APIStyleGuide
-[7] https://www.arduino.cc/en/Reference/StyleGuide
-[8] https://www.youtube.com/watch?v=fE3Dw0slhIc
+[5] https://www.arduino.cc/en/Hacking/LibraryTutorial  
+[6] https://www.arduino.cc/en/Reference/APIStyleGuide  
+[7] https://www.arduino.cc/en/Reference/StyleGuide  
+[8] https://www.youtube.com/watch?v=fE3Dw0slhIc  

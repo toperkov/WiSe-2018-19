@@ -74,7 +74,7 @@ U direktoriju ``labs/lab-5`` se nalazi kod za transmiter (``SimpleTx.ino``) i re
 
 Domet veoma ovisi o tome nalazi li se naš nRF24L01 vani na otvorenom ili u zatvorenom, gdje signal prolazi kroz zidove. Uobičajena udaljenost kojom se može za low-power verziju uređaja je oko 100 m. Ovo se odnosi na otvoreni prostor u kojem uređaji transmitiraju brzinom od 250 Kbps. Primjerice, ako stavite ``radio.setPALevel(RF24_PA_LOW);`` imat ćete pouzdanu komunikaciju, ali samo na 5 m. Da biste povećali domet napravite sljedeće:
 
- - postavite RF *"Power Amplifier Level"* na MAX: ``radio.setPALevel(RF24_PA_MAX);`` Možete eventualno testirati još i ove snage signala: ``RF24_PA_MIN``, ``RF24_PA_LOW``, ``RF24_PA_HIGH`` and ``RF24_PA_MAX``
+ - postavite RF *"Power Amplifier Level"* na MAX: ``radio.setPALevel(RF24_PA_MAX);`` Možete eventualno testirati još i ove snage signala: ``RF24_PA_MIN``, ``RF24_PA_LOW``, ``RF24_PA_HIGH`` and ``RF24_PA_MAX``,
  - postavite brzinu transmisije na 250 Kbps naredbom: Set ``radio.setDataRate(RF24_250KBPS);``. Testiraje još neke dostupne brzine: ``RF24_1MBPS``, ``RF24_2MBPS``, ``RF24_250KBPS``,
  - postavite frekvenciju transmisije na radio kanal 108 (ili više); tada se transmisija odvija iznad frekvencije WiFi-a: ``radio.setChannel(108);``
  
